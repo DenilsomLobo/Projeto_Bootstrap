@@ -10,11 +10,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Elementos Flutuantes</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+
+    <!--p: padding (1-4)-->
+    <!--m: margin (1-4)-->
+    <h1 class="display-1 p-4">Elementos Flutuantes</h1>
+    <hr>
+
+    <!--class="clear-fix" ==> Clear-both-->
+    <div style="border: 1px solid black; height: 120px;" class="m-4 clear-fix">
+
+        <div class="m-4 p-2 display-5 float-start bg-success">Esse texto vai flutuar para ESQUERDA</div>
+        <div class="m-4 p-2 dosplay-5 float-start bg-warning">Esse texto vai flutuar para DIREITA</div>
+
+    </div>
 
 
 
