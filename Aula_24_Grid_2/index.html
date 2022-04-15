@@ -14,6 +14,7 @@
             .conteudo {
                 background-color: rgb(252, 240, 223);
                 text-align: center;
+                border: 1px solid rgb(172, 168, 168);
             }
 
             .mostrar-container {
@@ -21,46 +22,54 @@
             }
         </style>
 
-    <title>Grid</title>
+    <title>Grid 2</title>
 </head>
 
 <body>
 
-    <h1 class="dispçay-5 mt-4">Trabalhando com Grid</h1>
+    <h1 class="display-5 mt-4">Trabalhando com Grid</h1>
+    <h1 class="display-5 p-2">Dividindo a Row</h1>
     <hr>
 
-    <!--Criando a área de conteúdo: Flexblox-->
+    <!--Criando a área de conteúdo: Flexbox-->
     <div class="container mostrar-container mt-2">
+
+        <!--Linha 1-->
         <div class="row">
-            <div class="col-3 conteudo">
-                Conteúdo com 3/12 colunas continuar escrevendo
-            </div>
+
+            <!--Coluna 1-->
+            <div class="col-4 conteudo">Conteúdocom 4/12 colunas</div>
+            <!--Coluna 2-->
+            <div class="col-4 conteudo">Conteúdocom 4/12 colunas</div>
+            <!--Coluna 3-->
+            <div class="col-4 conteudo">Conteúdocom 4/12 colunas</div>
+
         </div>
+
+        <!--Linha 2-->
+        <div class="row">
+
+            <!--Coluna 1-->
+            <div class="col-6 conteudo">Conteúdo com 6/12 colunas</div>
+            <!--Coluna 2-->
+            <div class="col-6 conteudo">Conteúdo com 6/12 colunas</div>
+
+        </div>
+
+        <!--Linha 3-->
+        <div class="row">
+
+            <!--Coluna 1 a 6-->
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+            <div class="col-2 conteudo">Conteúdo com 2/12 colunas</div>
+        </div>
+
     </div>
     
-    <div class="container mostrar-container mt-2">
-        <div class="row">
-            <div class="col-6 conteudo">
-                Conteúdo com 6/12 colunas
-            </div>
-        </div>
-    </div>
-
-    <div class="container mostrar-container mt-2">
-        <div class="row">
-            <div class="col-9 conteudo">
-                Conteúdo com 9/12 colunas
-            </div>
-        </div>
-    </div>
-
-    <div class="container mostrar-container mt-2">
-        <div class="row">
-            <div class="col-12 conteudo">
-                Conteúdo com 12 colunas
-            </div>
-        </div>
-    </div>
 
 
 
