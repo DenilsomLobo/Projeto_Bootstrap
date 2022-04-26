@@ -1,0 +1,29 @@
+body{
+    background-color: #F2F0EB;
+}
+
+nav ul li a {
+    color:aliceblue;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #403D38;
+}
+
+a:hover {
+    color: #27A844;
+}
+
+
+#container {
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.bullet {
+    font-size: 1.5em;
+    padding: 5px;
+}
